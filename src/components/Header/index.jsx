@@ -1,10 +1,14 @@
 import React from 'react'
+import * as S from "./style"
 
 const Header = () => {
   return (
-    <>
-        <h2>aaaaaaaaa</h2>
-    </>
+    <S.ContainHeader>
+        <h2>
+          
+        </h2>
+        
+    </S.ContainHeader>
   )
 }
 
