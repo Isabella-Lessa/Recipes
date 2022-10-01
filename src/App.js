@@ -3,7 +3,7 @@ import Header from './components/Header/index.jsx';
 import Main from './components/Main/index.jsx';
 import Footer from './components/Footer/index.jsx';
 
-const App = () => {
+export default function App(){
   return (
     <> 
       <Header/>
@@ -11,6 +11,5 @@ const App = () => {
       <Footer/>
     </>
   )
-}
 
-export default App
+}
